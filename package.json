@@ -1,0 +1,14 @@
+{
+  "name": "mfx-key-value-matcher",
+  "version": "1.0.0",
+  "description": "Simple condition matcher for mf-dynamic-form",
+  "dependencies": {
+    "mf-dynamic-form": "latest"
+  },
+  "devDependencies": {
+    "typescript": "~4.1.2"
+  },
+  "scripts": {
+    "build": "node node_modules/typescript/lib/tsc.js"
+  }
+}
