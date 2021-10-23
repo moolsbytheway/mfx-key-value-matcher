@@ -4,6 +4,7 @@ export default class KeyValueConditionMatcher implements ConditionMatcher {
     private readonly field;
     private readonly value;
     private readonly op;
-    constructor(field: string, value: any, op: OPERATOR);
+    private readonly targetFormGroup;
+    constructor(field: string, value: any, op: OPERATOR, targetFormGroup?: any);
     match(context: ConditionMatcherContext): ConditionMatcherResult;
 }
